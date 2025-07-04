@@ -2,18 +2,29 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaEnvelope, FaLock } from "react-icons/fa";
 import { useAuth } from "../context/AuthContext";
+import { useNavigate } from "react-router-dom";
+
 
 function Login() {
   const { login } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    const userData = { email, token: "dummy_token" };
-    login(userData);
-    console.log("Logged in!", userData);
-  };
+  e.preventDefault();
+
+  const userData = {
+  username: "Sid",
+  email,
+  token: "dummy_token",
+};
+
+  login(userData);
+
+  navigate("/dashboard");
+};
+
 
   return (
     <div className="relative min-h-screen">

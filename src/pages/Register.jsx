@@ -1,13 +1,12 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaEnvelope, FaLock, FaUser } from "react-icons/fa";
-import { useAuth } from "../context/AuthContext";
 
 function Register() {
-  const { login } = useAuth();
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -18,17 +17,13 @@ function Register() {
       token: "dummy_token",
     };
 
-    login(newUser);
-    console.log("Registered + Logged in!", newUser);
+    console.log("User registered:", newUser);
+    navigate("/login");
   };
 
   return (
     <div className="relative min-h-screen">
-      <img
-        src="/bg.jpg"
-        alt="Background"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+      <img src="/bg.jpg" alt="Background" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-black/40" />
       <div className="relative flex items-center justify-center min-h-screen px-4">
         <form
