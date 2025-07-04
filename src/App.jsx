@@ -1,9 +1,16 @@
+import { Routes, Route } from 'react-router-dom'
+import Login from './pages/login'
+import Register from './pages/Register'
+
 function App() {
   return (
-    <div className="h-screen flex justify-center items-center bg-gradient-to-tr from-indigo-500 to-purple-600 text-white">
-      <h1 className="text-4xl font-bold">Mental Health Tracker ✨</h1>
-    </div>
-  );
+    <Routes>
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+      {/* Optional: Redirect to login as default */}
+      <Route path="*" element={<Login />} />
+    </Routes>
+  )
 }
 
-export default App;
+export default App
