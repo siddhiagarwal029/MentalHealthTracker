@@ -4,6 +4,7 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Insights from "./pages/Insights";
 import ProtectedRoute from "./components/ProtectedRoute";
+import MoodGraph from "./pages/MoodGraph";
 
 function App() {
   return (
@@ -27,8 +28,14 @@ function App() {
           </ProtectedRoute>
         }
       />
-
-      {/* Catch-all route */}
+      <Route
+  path="/mood-graph"
+  element={
+    <ProtectedRoute>
+      <MoodGraph />
+    </ProtectedRoute>
+  }
+/>
       <Route path="*" element={<Login />} />
     </Routes>
   );

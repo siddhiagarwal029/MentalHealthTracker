@@ -35,7 +35,7 @@ function Login() {
           onSubmit={handleSubmit}
           className="bg-white/20 backdrop-blur-md border border-white/30 shadow-2xl rounded-2xl p-8 w-full max-w-md text-white z-10"
         >
-          <h1 className="text-3xl font-bold text-center mb-6 drop-shadow-md">Welcome Back 🧠</h1>
+          <h1 className="text-3xl font-bold text-center mb-6 drop-shadow-md">Welcome Back</h1>
 
           <div className="flex items-center bg-white/10 rounded-lg px-4 py-2 mb-4">
             <FaEnvelope className="text-white mr-3" />
