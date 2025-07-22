@@ -27,6 +27,3 @@ A web-based application that allows users to log their mood, write journal entri
 - Trained on Kaggle mood classification dataset
 - Python (scikit-learn, joblib)
 - Flask server for prediction API
-
-## Folder Structure
-
