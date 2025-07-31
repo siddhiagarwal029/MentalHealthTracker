@@ -1,0 +1,77 @@
+<<<<<<< HEAD
+# Node modules (DO NOT push this ever)
+node_modules/
+
+# Environment variables
+.env
+
+=======
+>>>>>>> aef8cf780a5c0d5f6f1c3b0e45305f70f4b1b0a4
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+<<<<<<< HEAD
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE configs (Visual Studio Code, JetBrains etc.)
+.vscode/
+.idea/
+
+# Dependency directories
+bower_components/
+
+# Build outputs
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# Optional: Ignore database dump files
+dump/
+*.sql
+*.sqlite
+
+# Optional: Ignore any personal runtime files
+*.local
+*.env.local
+.env.*.local
+
+# Ignore compiled output (if you have TypeScript or Babel)
+*.tsbuildinfo
+
+# Ignore misc
+*.swp
+*.swo
+
+# Mac Trash
+.Trashes
+
+# Optional: ignore uploads (if any)
+uploads/
+=======
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> aef8cf780a5c0d5f6f1c3b0e45305f70f4b1b0a4
