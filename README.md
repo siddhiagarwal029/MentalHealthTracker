@@ -106,15 +106,3 @@ This project is licensed under MIT License.
 Made with 💙 by [**Siddhi Agarwal**](https://github.com/siddhiagarwal029)
 
 ---
-
-## BONUS Badges You Can Add Later:
-
-| Badge Type                 | Badge URL Example                                                                       |
-| -------------------------- | --------------------------------------------------------------------------------------- |
-| Repo Stars                 | `https://img.shields.io/github/stars/siddhiagarwal029/MentalHealthTracker?style=social` |
-| Forks                      | `https://img.shields.io/github/forks/siddhiagarwal029/MentalHealthTracker?style=social` |
-| Issues                     | `https://img.shields.io/github/issues/siddhiagarwal029/MentalHealthTracker`             |
-| Last Commit                | `https://img.shields.io/github/last-commit/siddhiagarwal029/MentalHealthTracker`        |
-| Deployed On (e.g., Vercel) | Custom Badge — Use Shields.io or GitHub Actions for dynamic deploy status               |
-
----
