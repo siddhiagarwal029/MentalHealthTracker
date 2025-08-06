@@ -1,4 +1,4 @@
-# 🧠 MentalHealthTracker
+# 🧠 MindMate : A Mental Health Tracker Web App
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/siddhiagarwal029/MentalHealthTracker)
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)](#)
